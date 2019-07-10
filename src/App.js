@@ -1,15 +1,15 @@
 import React,{Component} from 'react';
 import Navbar from './Header/Navbar';
 import Content from './Content/Content';
-import Aux from './HOC/Aux';
+import FakeDiv from './HOC/FakeDiv';
 
 class App extends Component{
     render(){
         return (
-            <Aux>
+            <FakeDiv>
                 <Navbar/>
                 <Content/>
-            </Aux>
+            </FakeDiv>
             )
     }
 }
