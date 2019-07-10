@@ -1,14 +1,14 @@
 import React from 'react';
 import Banner from './Banner/Banner'
-import Aux from '../HOC/Aux'
+import FakeDiv from '../HOC/FakeDiv'
 import Projects from './Projects/Projects'
 
 const Content = (props) => {
     return (
-        <Aux>
+        <FakeDiv>
             <Banner/>
             <Projects/>
-        </Aux>
+        </FakeDiv>
     )
 }
 
