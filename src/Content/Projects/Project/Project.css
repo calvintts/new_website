@@ -32,6 +32,18 @@
     font-family: 'Playfair Display', serif;
 }
 
+.project_title{
+    font-size:3em;
+}
+
+.project_date{
+    font-size:1.6em;
+}
+
+.project_description{
+    font-size:1em;
+}
+
 h2{
     text-transform: uppercase;
 }

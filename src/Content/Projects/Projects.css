@@ -1,3 +1,30 @@
 .projects_section{
     color:white;
 }
+
+.container_title{
+    text-align:center;
+    font-size:2.8em;
+    font-family: 'Playfair Display', serif;
+    text-transform:uppercase;
+    letter-spacing: 5px;
+    font-weight:lighter;
+    position:relative;
+    padding:1.25em;
+    margin:auto;
+    overflow: hidden;
+    background: linear-gradient(90deg, grey, #fff, black);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 3s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+@keyframes animate{
+    0%{
+        background-position:-150%;
+    }
+    100%{
+        backgorund-position:150%;
+    }
+}

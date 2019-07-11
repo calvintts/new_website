@@ -5,6 +5,7 @@ import calculator_img from "../../asset/calculator.png";
 const Projects = (props) => {
     return (
         <section className="projects_section">
+            <h2 id="projects" className="container_title">Projects</h2>
             <Project
                 imageurl={calculator_img}
                 title="calculator"

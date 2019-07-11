@@ -1,0 +1,103 @@
+.form-input, .textarea-div{
+    background-color: black;
+    border: 1px solid white;
+    padding: 0.6em;
+    width:100%;
+    font-size:1.2em;
+    color:white;
+    outline:none;
+    min-width:60%;
+}
+
+.textarea-div > textarea{
+    margin:0px;
+    padding:0px;
+    max-width:100%;
+    max-height:100%;
+    border:none;
+    resize:none;
+    width:100%;
+}
+
+::placeholder {
+    color: lightgrey;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: lightgrey;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: lightgrey;
+}
+
+.contact-form{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    background-color: #181818;
+    padding-top:2em;
+    padding-bottom:6em;
+}
+
+.form-left{
+    text-align: center;
+    padding:5px;
+}
+
+.form-left>h2{
+    font-weight:normal;
+    font-stretch: normal;
+    font-size:40px;
+}
+
+.form-left>p{
+    font-weight:normal;
+    font-stretch:normal;
+    font-size:15px;
+}
+
+
+
+.name-input{grid-area:name;}
+.address-input{grid-area:address;}
+.email-input{grid-area:email;}
+.phone-input{grid-area:phone;}
+.subject-input{grid-area:subject;}
+.message-input{grid-area:message;}
+.submit-input{grid-area:submit;}
+
+.form-right{
+    display:grid;
+    grid-template-areas:
+    'name name''address address''email phone''subject subject''message message''. submit';
+    grid-gap:0.8em;
+    padding:10px;
+}
+
+.phone-input,#submit{
+    padding-left:1.4em;
+}
+
+
+#submit{
+    width:100%;
+    background-color:#181818;
+    margin-left:1.5em;
+    color:white;
+    border: solid white 1px;
+    cursor: pointer;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-size:15px;
+    height:3em;
+    text-transform: uppercase;
+}
+
+#submit:hover{
+    background-color: #876f4b;
+    box-shadow: #181818;
+    border:1px solid black;
+}

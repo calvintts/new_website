@@ -1,5 +1,5 @@
 header{
-    height:4em;
+    height:5em;
     color:white;
     margin:0px;
     padding:0px;
@@ -11,6 +11,8 @@ ul{
 }
 
 li{
+    font-size:1.3em;
+    margin:auto;
     list-style: none;
     padding:0.25em;
     padding-left:0.5em;
@@ -18,6 +20,11 @@ li{
     text-transform: capitalize;
     letter-spacing: 1px;
     cursor: pointer;
+    height:100%;
+}
+
+.nav-li:hover{
+    color:#876f4b;
 }
 
 nav{
@@ -31,4 +38,22 @@ nav{
     padding:0.25em;
     margin:0.25em;
     padding-left:0.5em;
+    height:4.2em;
+    width:4.2em;
+}
+
+#profile-name{
+    padding-left:5px;
+    text-transform: uppercase;
+    color:white;
+    margin:auto;
+    font-family: 'Playfair Display', serif;
+    font-size:2em;
+    letter-spacing: 3px;
+}
+
+#profile-link{
+    display:flex;
+    flex-grow: initial;
+    text-decoration: none;
 }
