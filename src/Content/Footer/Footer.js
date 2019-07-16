@@ -1,4 +1,4 @@
-import React, {Component} from 'react'
+import React from 'react'
 import FakeDiv from '../../HOC/FakeDiv'
 import LinkedinPic from '../../asset/linkedin.png'
 import EmailPic from '../../asset/email.png'
@@ -42,7 +42,7 @@ const Footer = () => {
                     {links.map((elem,index)=>{
                         return (
                             <li key={index} className="social-div">
-                                <a href={elem.url}><img className="footer-icon" src={elem.icon}/></a>
+                                <a href={elem.url}><img alt={`elem ${elem.name}`} className="footer-icon" src={elem.icon}/></a>
                                 <p>{elem.name}</p>
                             </li>
                         )
