@@ -3,6 +3,10 @@
     flex-wrap: wrap;
 }
 
+.project_tech>ul{
+    flex-wrap:wrap;
+}
+
 .project > div{
     flex:1;
 }
