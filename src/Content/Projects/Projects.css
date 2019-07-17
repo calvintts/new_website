@@ -15,16 +15,17 @@
     overflow: hidden;
     background: linear-gradient(90deg, grey, #fff, black);
     background-repeat: no-repeat;
-    background-size: 80%;
+    background-size: 90%;
     animation: animate 3s linear infinite;
     -webkit-background-clip: text;
     -webkit-text-fill-color: rgba(255, 255, 255, 0);
 }
+
 @keyframes animate{
     0%{
-        background-position:-150%;
+        background-position:-200%;
     }
     100%{
-        backgorund-position:150%;
+        backgorund-position:200%;
     }
 }

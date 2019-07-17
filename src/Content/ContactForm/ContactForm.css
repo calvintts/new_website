@@ -43,13 +43,14 @@
     justify-content: space-around;
     flex-wrap:wrap;
     background-color: #181818;
-    padding-top:2em;
+    padding-top:4em;
     padding-bottom:6em;
 }
 
 .form-left{
     text-align: center;
-    padding:5px;
+    padding:10px;
+    margin:auto;
 }
 
 .form-left>h2{
@@ -78,7 +79,8 @@
     display:grid;
     grid-template-areas:
     'name name''address address''email phone''subject subject''message message''. submit';
-    grid-gap:0.8em;
+    grid-row-gap:0.8em;
+    margin:auto;
     padding:10px;
 }
 
@@ -99,6 +101,10 @@
     box-sizing: border-box;
     -webkit-box-sizing:border-box;
     -moz-box-sizing: border-box;
+}
+
+.phone-input{
+    padding-left:0.5em;
 }
 
 .submit-input{

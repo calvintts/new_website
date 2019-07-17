@@ -4,7 +4,7 @@ import LinkedinPic from '../../asset/linkedin.png'
 import EmailPic from '../../asset/email.png'
 import GithubPic from '../../asset/github.png'
 import FacebookPic from '../../asset/fb.png'
-import ContactForm from './ContactForm/ContactForm'
+import ContactForm from '../ContactForm/ContactForm'
 import "./Footer.css"
 
 const links = [
@@ -34,8 +34,6 @@ const links = [
 const Footer = () => {
     return (
         <FakeDiv>
-            <h2 id="contact" className="container_title">Contacts</h2>
-            <ContactForm/>
             <h3 className="footer-title">Make a friend?</h3>
             <footer>
                 <ul className="social-list">

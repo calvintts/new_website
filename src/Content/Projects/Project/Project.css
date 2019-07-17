@@ -26,6 +26,7 @@
     background: linear-gradient(135deg, black, grey);
     display:flex;
     justify-content: space-around;
+    border-radius:30px;
 }
 
 .project_desc_container{
@@ -38,6 +39,7 @@
 
 .project_title{
     font-size:3em;
+    margin:0.5em;
 }
 
 .project_date{
