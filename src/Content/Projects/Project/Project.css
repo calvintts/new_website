@@ -31,6 +31,7 @@
 
 .project_desc_container{
     display:flex;
+    width:100%;
     flex-direction:column;
     justify-content: center;
     text-align: center;
@@ -38,7 +39,7 @@
 }
 
 .project_title{
-    font-size:3em;
+    font-size:2em;
     margin:0.5em;
 }
 
