@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/new_website/static/css/main.356bc34d.chunk.css",
+    "main.css": "/new_website/static/css/main.dca80819.chunk.css",
     "main.js": "/new_website/static/js/main.eb0d4587.chunk.js",
     "main.js.map": "/new_website/static/js/main.eb0d4587.chunk.js.map",
     "runtime~main.js": "/new_website/static/js/runtime~main.6541dc7b.js",
@@ -8,9 +8,9 @@
     "static/js/2.841239b1.chunk.js": "/new_website/static/js/2.841239b1.chunk.js",
     "static/js/2.841239b1.chunk.js.map": "/new_website/static/js/2.841239b1.chunk.js.map",
     "index.html": "/new_website/index.html",
-    "precache-manifest.f2253ed2d34049ca66ce7757cc3c2473.js": "/new_website/precache-manifest.f2253ed2d34049ca66ce7757cc3c2473.js",
+    "precache-manifest.b3d5a526dbc37d0cd753d8dc642091ca.js": "/new_website/precache-manifest.b3d5a526dbc37d0cd753d8dc642091ca.js",
     "service-worker.js": "/new_website/service-worker.js",
-    "static/css/main.356bc34d.chunk.css.map": "/new_website/static/css/main.356bc34d.chunk.css.map",
+    "static/css/main.dca80819.chunk.css.map": "/new_website/static/css/main.dca80819.chunk.css.map",
     "static/media/calculator.png": "/new_website/static/media/calculator.182367b1.png",
     "static/media/email.png": "/new_website/static/media/email.3f9dda3e.png"
   }
