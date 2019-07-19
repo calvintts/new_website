@@ -24,4 +24,9 @@
     justify-content: space-around;
 }
 
+@media only screen and (max-width:600px){
+    .social-list{
+        flex-wrap:wrap;
+    }
+}
 
