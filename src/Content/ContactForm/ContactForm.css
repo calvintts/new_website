@@ -53,13 +53,15 @@
     margin:auto;
 }
 
-.form-left>h2{
-    font-weight:normal;
+.form-left h2{
     font-stretch: normal;
-    font-size:40px;
+    font-size:50px;
+    letter-spacing: 2px;
+    font-family: 'Slabo 27px', serif;
+    font-weight: bold;
 }
 
-.form-left>p{
+.form-left p{
     font-weight:normal;
     font-stretch:normal;
     font-size:15px;
