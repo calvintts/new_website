@@ -11,9 +11,21 @@ const Projects = (props) => {
             </Element>
             <Project
                 imageurl={calculator_img}
-                title="calculator"
-                date="Summer 2018"
-                description="Something I created for fun"
+                title="Calculator"
+                date="2019"
+                description="This project was created to try out ReactJS. I learnt how ReactJS works compared to JQuery and how to create reusable component with ReactJS"
+                techstack={["React.js","JavaScript","ES6","HTML","CSS"]}/>
+            <Project
+                imageurl={calculator_img}
+                title="Calculator"
+                date="2019"
+                description="This project was created to try out ReactJS. I learnt how ReactJS works compared to JQuery and how to create reusable component with ReactJS"
+                techstack={["React.js","JavaScript","ES6","HTML","CSS"]}/>
+            <Project
+                imageurl={calculator_img}
+                title="Calculator"
+                date="2019"
+                description="This project was created to try out ReactJS. I learnt how ReactJS works compared to JQuery and how to create reusable component with ReactJS"
                 techstack={["React.js","JavaScript","ES6","HTML","CSS"]}/>
         </section>
     );

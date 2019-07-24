@@ -1,7 +1,7 @@
 .banner{
     color:white;
     text-align: center;
-    background-color: #181818;
+    background: linear-gradient(135deg, #876f4b, black);
     font-family: 'Playfair Display', serif;
     padding:0.2em;
     padding-bottom: 2em;

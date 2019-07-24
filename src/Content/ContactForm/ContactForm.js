@@ -12,6 +12,7 @@ class ContactForm extends Component{
         phone : "",
         subject : "",
         message : "",
+        response:"",
     }
 
     sendContact = () => {
@@ -24,7 +25,7 @@ class ContactForm extends Component{
             message : this.state.message,
         }
         axios.post('/contacts.json', contact)
-            .then(response=>console.log(response))
+            .then(response=>response.status==200?this.setState({response:"Thank you for reaching out. I will get back to you shortly."}):null)
             .catch(error => console.log(error))
     }
 
@@ -38,17 +39,8 @@ class ContactForm extends Component{
         this.setState({address:event.target.value})
     }
 
-    normalizePhone(phone){
-        phone = phone.replace(/[^\d]/g, "")
-        if(phone.length>=10){
-            return phone.replace(/(\d{3})(\d{3})(\d{4})/, "($1) $2-$3");
-        }
-        return null
-    }
-
     handlePhoneChange = (event) => {
-        const phone_number = this.normalizePhone(event.target.value)
-        this.setState({phone:phone_number})
+        this.setState({phone:event.target.value})
     }
     handleSubjectChange = (event) => {
         this.setState({subject:event.target.value})
@@ -56,6 +48,7 @@ class ContactForm extends Component{
     handleMessageChange = (event) => {
         this.setState({message:event.target.value})
     }
+
 
     render(){
         return (
@@ -100,6 +93,7 @@ class ContactForm extends Component{
                             <button id="submit" type="button">Submit</button>
                         </div>
                     </div>
+                    {this.state.response?<p className="response-message">{this.state.response}</p>:null}
                 </form>
             </FakeDiv>
         )
