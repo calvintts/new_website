@@ -25,7 +25,7 @@ class ContactForm extends Component{
             message : this.state.message,
         }
         axios.post('/contacts.json', contact)
-            .then(response=>response.status==200?this.setState({response:"Thank you for reaching out. I will get back to you shortly."}):null)
+            .then(response=>response.status===200?this.setState({response:"Thank you for reaching out. I will get back to you shortly."}):null)
             .catch(error => console.log(error))
     }
 

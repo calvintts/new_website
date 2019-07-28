@@ -5,7 +5,7 @@ const Project = (props) => {
     return (
         <div className="project">
             <div className="project_img_container">
-                <img alt="project" className="project_img" src={props.imageurl}/>
+                <img alt={props.title} className="project_img" src={props.imageurl}/>
             </div>
             <div className="project_desc_container">
                 <h2 className="project_title">{props.title}</h2>

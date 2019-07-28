@@ -5,6 +5,8 @@
     border: 3px solid #876f4b;
     border-radius: 30px;
     margin:1em;
+    min-width: 280px;
+
 }
 
 .project_tech>ul{
@@ -13,6 +15,7 @@
 
 .project > div{
     flex:1;
+    padding: 10px;
 }
 
 .project_img{
@@ -62,6 +65,7 @@ h2{
 @media only screen and (min-width:400px) {
     .project:nth-child(even) {
         flex-direction: row-reverse;
+        min-height: 500px;
     }
 }
 
