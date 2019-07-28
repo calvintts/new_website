@@ -4,7 +4,6 @@ import LinkedinPic from '../../asset/linkedin.png'
 import EmailPic from '../../asset/email.png'
 import GithubPic from '../../asset/github.png'
 import FacebookPic from '../../asset/fb.png'
-import ContactForm from '../ContactForm/ContactForm'
 import "./Footer.css"
 
 const links = [

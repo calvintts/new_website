@@ -33,7 +33,7 @@ class Navbar extends React.Component{
                         </li>
                     </ul>
                     <button onClick={this.toggleNavButton}className="nav-button">
-                        <img className="popup-button"
+                        <img alt="button" className="popup-button"
                              src={this.state.showNav?"https://firebasestorage.googleapis.com/v0/b/my-portfolio-7930f.appspot.com/o/white-x.png?alt=media&token=bb85b0f6-ab0b-48d5-a7e7-144cd7bb2d56":"https://firebasestorage.googleapis.com/v0/b/my-portfolio-7930f.appspot.com/o/nav-button.png?alt=media&token=7b27cf8f-ccc3-4115-9e0a-fd4ce588f6f1"}/>
                     </button>
                 </nav>
